@@ -1,0 +1,12 @@
+def gcd(a: int, b: int) -> int:
+	if b == 0:
+		return a
+	return gcd(b, a % b)
+
+def main() -> int:
+	i, s = 0, 0
+	while i < 1000:
+		if i % 3 == 0 or i % 5 == 0:
+			s += i
+		i += 1
+	print(s)

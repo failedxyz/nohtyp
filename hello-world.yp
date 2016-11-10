@@ -1,0 +1,6 @@
+# This is a hello world program implemented in Nohtyp, a Python-like language.
+
+def main(argc: int) -> int:
+	string = "Hello, world!"
+	var1, var2, var3 = "foo", "bar", 0
+	print(string, "\n", var1 + " = " + var2, var3)
